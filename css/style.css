@@ -70,9 +70,9 @@
     margin-right: 30px;
   }
   .nav-links{
-    padding: 11px;
+    /* padding: 11px;
     border: 1px solid rgba(255, 255, 255, 0.1);
-    border-radius: 39px;
+    border-radius: 39px; */
 
   }
   .nav-link{
@@ -138,6 +138,7 @@
     cursor: pointer;
     margin-top: 25rem;
     margin-left: -5rem;
+    position: relative;
   }
   #ex-badge > i{
     filter: grayscale(100%);
@@ -152,8 +153,8 @@
     letter-spacing: 0.3px;
     text-align: left;
   }
-  /* #ex-badge2{
-    padding: 20PX 23PX;
+  #ex-badge2{
+    padding: 20PX 20PX;
     background: transparent;
     color: white;
     border-radius: 12px;
@@ -161,7 +162,9 @@
     background: rgba(48, 48, 48, 0.54);
     backdrop-filter: blur(20px);
     cursor: pointer;
-    margin-top: -100px;
+    margin-top: 9rem;
+    right: 9rem;
+    position: absolute;
   }
   #ex-number2{
     color: rgb(255, 255, 255);
@@ -169,8 +172,9 @@
     font-weight: 900;
     line-height: 40px;
     letter-spacing: 1px;
-    text-align: left;
-  } */
+  }
+
+
 
   /* Main section start */
   main{
@@ -236,28 +240,32 @@
 
 
   @media screen and (max-width: 576px) {
-    nav .nav-link{
+    .nav-links{
         display: none;
+
     }
     .logo{
         margin: 0 270px 0 20px;
     }
-    nav .burger{
+    .burger{
         display: block;
         color: white;
-        font-size: 1.25rem;
+        font-size: 1.5rem;
         font-weight: 500;
-        align-items: end;
+        margin-right: 10px;
     }
     .banner{
         flex-direction: column;
         padding: 22px;
     }
+    #ex-badge2{
+      right: 20px;
+      top: 28.25rem;
+    }
     .card{
         grid-template-columns: repeat(1, 1fr);
-        align-items: center;
     }
     .card p{
-        justify-content: center
+      margin-top: 9pxs;
     }
   }
