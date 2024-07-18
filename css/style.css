@@ -21,6 +21,9 @@
   body{
     background-color: black;
   }
+  h1, h2, h3, h4, h5,h6, p {
+    color: #fff;
+  }
   /* shear style */
   .display-flex{
     display: flex;
@@ -216,6 +219,21 @@
   }
   .card h4{
     margin-top: 1.8rem;
+  }
+
+  /* horizontal-container start */
+  .horizontal-container{
+    display: flex;
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+  }
+
+  .horizontal-container img{
+    /* Rectangle 22 */
+  width: 366px;
+  height: 312px;
+  left: 662px;
+  top: 30px;
   }
 
 
