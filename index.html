@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Health</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -93,7 +93,7 @@
     <p id="h-description">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
     <section class="hori-container-2">
         <div class="hori-cal">
-           <div>
+           <div class="tabel-w-h">
             <table class="form-table">
                 <tr>
                     <th>BMI</th>
@@ -120,16 +120,42 @@
            <div class="form">
             <h3>Calculate your BMI</h3>
             <p>We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym. </p>
-            <form action="">
-                <label for="">
-                    <input type="text" name="" id="">
-                    <input type="email" name="" id="">
-                    <input type="email" name="" id="">
-                    <!-- <input type="email" name="" id=""> -->
-                    <!-- <input type="email" name="" id=""> -->
-                </label>
-                <!-- <button class="btn-primary">Join Now</button> -->
+            <form class="g-from" action="">
+                <div>
+                    <label for="">
+                        <input type="text" placeholder="Height/cm" name="" id="">
+                    </label>
+                </div>
+                <div>
+                    <label for="">
+                        <input type="email" placeholder="Weight/kg" name="" id="">
+                    </label>
+                </div>
+                <div>
+                    <label for="">
+                        <input type="email" placeholder="Age" name="" id="">
+                    </label>
+                </div>
+                <div>
+                    <label for="">
+                        <select name="" id="">
+                            <option class="text-gray" value="">Sex</option>
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                        </select>
+                    </label>
+                </div>
             </form>
+            <div id="ff">
+                <label for="">
+                    <select name="" id="">
+                        <option class="text-gray" value="">Select an activity factor</option>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                    </select>
+                </label>
+            </div>
+              <button class="btn-primary">Join Now</button>
         </div>
         </div>
        

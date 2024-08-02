@@ -261,7 +261,6 @@
 .hori-container-2{
     justify-content: space-between;
   padding: 41px 32px 40px 54px;
-  border-radius: 18px;
   background: rgb(34, 34, 34);
   margin-bottom: 6.25rem;
 }
@@ -291,6 +290,10 @@ table{
   color: #fff;
   border-collapse: collapse;
 }
+.tabel-w-h{
+  width: 310px;
+  height: 216px;
+}
 
 td{
   color: rgba(255, 255, 255, 0.5);
@@ -303,10 +306,40 @@ td, th {
   text-align: left;
   padding: 8px;
 }
+.hori-cal h3{
+  color: rgb(255, 255, 255);
+  font-size: 28px;
+  font-weight: 900;
+  line-height: 120%;
+  text-align: left;
+}
+.hori-cal p{
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.3px;
+  text-align: left;
+}
 .form{
   margin-left: 175px;
 }
-
+.g-from{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.g-from input ,select{
+  width: 282.5px;
+  height: 48px;
+  padding: 12px 40px 12px 20px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.1);
+  margin: 8px 0px;
+  border: none;
+}
+#ff{
+  width: 577px;
+}
 
 
 
