@@ -44,7 +44,9 @@
     color: rgba(255, 255, 255, 0.5);
   }
 
-
+.hidden{
+  display: none;
+}
   /* nav style */
  
   .main-header{
@@ -224,6 +226,7 @@
   /* horizontal-container start */
   .horizontal-container{
     display: flex;
+    /* display: none; */
     justify-content: space-between;
     padding: 41px 32px 40px 54px;
     border-radius: 18px;
@@ -289,13 +292,13 @@ td{
 }
 td, th {
   border: 1px solid rgba(255, 255, 255, 0.1);
-  text-align: left;
   padding: 8px;
 }
 .hori-cal{
   max-width: 1060px;
   margin: 0 auto;
   display: flex;
+  justify-content: space-between;
   padding: 5px;
 }
 .hori-cal h3{
@@ -310,7 +313,7 @@ td, th {
   font-weight: 400;
 }
 .form{
-  margin-left: 175px;
+  /* margin-left: 175px; */
   padding: 5px;
 }
 /* .g-from{
@@ -471,8 +474,16 @@ td, th {
   line-height: 120%;
   text-align: left;
 }
+.hr{
+  max-width: 1060px;
+  margin: 0 auto;
+  border: 1px solid gray;
+  margin-bottom: 10px;
+}
+
 .end{
   text-align: center;
+  margin-bottom: 10px;
 }
 
 
@@ -535,9 +546,16 @@ td, th {
       padding: 0;
       margin: 0;
     }
+    table{
+      margin-left: 133px;
+    }
+    #h3-bmi{
+      text-align: center;
+    }
     /* ------team section------------ */
     .team-member{
       grid-template-columns: repeat(1, 1fr);
+      padding-left: 130px;
     }
     
     /* ----footer-- */
